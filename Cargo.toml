@@ -1,0 +1,12 @@
+[package]
+name = "workshop7"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gdnative = { git = "https://github.com/GodotNativeTools/godot-rust.git" }
+
+[lib]
+crate_type = ["cdylib"]
